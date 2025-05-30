@@ -200,7 +200,7 @@ const LandingPage = ({ isLocomotiveScrollReady }) => {
     <section className="section landing-page" data-scroll-section>
       <div className="landing-content">
         <div ref={avatarRef} className="avatar-container">
-          <img src="src/assets/images/1.png" alt="Chị Trang Avatar" className="avatar-img" />
+          <img src="https://raw.githubusercontent.com/maitrongthinh/chitrangcute/main/src/assets/images/1.png" alt="Chị Trang Avatar" className="avatar-img" />
         </div>
         <h1 ref={nameRef} className="hero-name">Gửi Chị Trang</h1>
         <p ref={introRef} className="intro-text">
