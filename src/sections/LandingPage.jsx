@@ -49,7 +49,7 @@ const LandingPage = ({ isLocomotiveScrollReady }) => {
     // --- Xử lý đoạn giới thiệu thành từng dòng ---
     if (!introReady) {
       const introElement = introRef.current;
-      const introContent = `Em biết chị đã rất vất vả rồi,\nLuôn nỗ lực hết mình vì ước mơ tri thức.\nĐây là món quà nhỏ, như một khởi đầu mới cho chị,em hơi nhạt nên cx không biết nói gì nhiều ở đây e có đôi dòng muốn gửi đến chị mong sẽ làm chị có thêm đọng lực để đi thi nhé .`;
+      const introContent = `Em biết chị đã rất vất vả rồi,\nLuôn nỗ lực hết mình vì ước mơ tri thức.\nĐây là món quà nhỏ, như một khởi đầu mới cho chị,em hơi nhạt nên cx không biết nói gì nhiều ở đây e có đôi dòng muốn gửi đến chị mong sẽ làm chị có thêm động lực để đi thi nhé .`;
       const introLines = introContent.split('\n');
       introElement.innerHTML = introLines.map(line => `<p class="intro-line">${line}</p>`).join('');
       setIntroReady(true);
